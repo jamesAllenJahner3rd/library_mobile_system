@@ -22,6 +22,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
 # Logs
 logs
 *.log
@@ -123,10 +124,10 @@ dist
 .svelte-kit/
 
 # vitepress build output
-**/.vitepress/dist
+# (Removed)
 
 # vitepress cache directory
-**/.vitepress/cache
+# (Removed)
 
 # Docusaurus cache and generated files
 .docusaurus
@@ -157,7 +158,3 @@ dist
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-
-# Vite logs files
-vite.config.js.timestamp-*
-vite.config.ts.timestamp-*
